@@ -1,0 +1,204 @@
+.studentsList {
+    padding-top: 30px;
+}
+
+.student {
+    width: 801px;
+    height: 80px;
+
+    background-color: #3E78B2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    margin-top: 20px;
+
+    position: relative;
+}
+
+#buttonImg1 {
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+}
+
+#buttonImg2 {
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+}
+
+#buttonImg3 {
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+}
+
+#buttonImg4 {
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+}
+
+#buttonImg5 {
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+}
+
+#buttonImg6 {
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+}
+
+#buttonImg7 {
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+}
+
+#buttonImg8 {
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+}
+
+#buttonImg9 {
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+}
+
+#buttonImg10 {
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+}
+
+#buttonImg11 {
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+}
+
+#buttonImg12 {
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+}
+
+#buttonImg13 {
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+}
+
+#buttonImg14 {
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+}
+
+#buttonImg15 {
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+}
+
+#buttonImg16 {
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+}
+
+#buttonImg:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.buttonClassSelected {
+    background-color: red;
+}
+
+.student img {
+    width: 80px;
+    height: 80px;
+
+}
+
+.student p {
+    right: 370px;
+    position: absolute;
+}
+
+.student:first-child {
+    margin: 0;
+}
+
+.student p {
+    font-size: 30px;
+}
+
+.student button {
+    width: 50px;
+
+    border: none;
+    outline: none;
+
+    transition: 200ms;
+}
+
+.buttonUncheck { 
+    height: 80px;
+
+    background-color: #88B0D8;
+    grid-column-start: 3;
+
+    position: absolute;
+    left: 217px;
+}
+
+.buttonUncheck:hover { 
+    opacity: 80%;
+    cursor: pointer;   
+}
+
+.buttonCheck { 
+    height: 80px;
+
+    background-color: greenyellow;
+    grid-column-start: 3;
+
+    position: absolute;
+    left: 217px;
+}
+
+.buttonCheck:hover { 
+    opacity: 80%;
+    cursor: pointer;   
+}
+
+.buttonBlock {
+    background-color: gray;
+}
+
+.buttonBlock:hover {
+    opacity: 80%;
+    cursor: not-allowed;
+}

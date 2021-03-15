@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #F4F4F4;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 80vh 50vh 10vh;
+}
+
+.header {
+    grid-column-start: 1;
+}
+
+.footer {
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
